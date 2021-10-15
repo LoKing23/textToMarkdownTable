@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google翻譯轉Markdown的牟迅</title>
+  <title>文字轉Markdown的table格式</title>
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -15,34 +15,26 @@
   }
 </style>
 <body>
-  <h1 class="text-danger text-center mb-5">Google翻譯轉成markdown的table格式</h1>
+
+  <h1 class="text-danger text-center mb-5">文字轉Markdown的table格式</h1>
   <div class="container">
     <div class="btn btn-success mb-3">送出</div>
-    <div class="row">
+    <div class="input-area row">
       <div class="col">
-        <textarea class="w-100" cols="30" rows="15" placeholder="輸入第一欄資訊">
-安安
-你好
-幾歲
-住哪
-        </textarea>
+        <textarea class="w-100" cols="30" rows="15" placeholder="輸入第一欄資訊"></textarea>
       </div>
       <div class="col">
-        <textarea class="w-100" rows="15" placeholder="輸入第二欄資訊">
-我住大安
-你呢
-你住北投
-我知道
-        </textarea>
+        <textarea class="w-100" rows="15" placeholder="輸入第二欄資訊"></textarea>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <h2>轉換結果</h2>
-        <textarea class="border-success " name="" rows="10"></textarea>
+        <textarea class="output border-success border-2 w-100" name="" rows="10"></textarea>
       </div>
     </div>
   </div>
+
   <script src="all.js"></script>
 </body>
 </html>
