@@ -1,0 +1,29 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "不是很重要的東東",
+  "main": "all.js",
+  "scripts": {
+    "test": "MCHello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LoKing23/textToMarkdownTable.git"
+  },
+  "keywords": [
+    "Convert",
+    "text",
+    "to",
+    "markdown"
+  ],
+  "author": "LoKing23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoKing23/textToMarkdownTable/issues"
+  },
+  "homepage": "https://github.com/LoKing23/textToMarkdownTable#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
